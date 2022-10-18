@@ -67,7 +67,6 @@
                                 </table>
                             </div>
                         </div>
-
                     </div>
                     <div class="actions">
                         <label class="text-muted">Action</label>
@@ -79,10 +78,8 @@
                                 Cancel
                             </button>
                         </div>
-
                     </div>
                 </div>
-
                 <div class="row">
                     <table class="col-xs-7 table-bordered table-striped table-condensed table-fixed">
                         <thead>
@@ -234,12 +231,208 @@
                 </div>
             </div>
             <div class="tab-pane fade container" id="nav-about">
-                <h2>About</h2>
-                <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius,
-                    vel iure. Rerum voluptate inventore expedita quisquam iusto ad
-                    porro modi!
-                </p>
+                <div class="scanner">
+                    <div class="preview mb-3">
+                        <div class="video-container col-md-6 text-center">
+                            <video src="" id="scanner-preview" width="100%"></video>
+                        </div>
+                    </div>
+                    <div class="details">
+                        <div class="asset col-md-6">
+                            <div class="label">
+                                <label class="text-muted mb-2">Borrower</label>
+                            </div>
+                            <div class="personel-details p-2 col-md-5 text-start">
+                                <img class="mb-3" src="images/pnp-logo.jpg" alt="logo" width="100%">
+                                <table class="table table-sm">
+                                    <tbody>
+                                        <tr>
+                                            <th>NAME</th>
+                                            <td>Sample User</td>
+                                        </tr>
+                                        <tr>
+                                            <th>POSITION</th>
+                                            <td>Lieutenant</td>
+                                        </tr>
+                                        <tr>
+                                            <th>STATUS</th>
+                                            <td>
+                                                ACTIVE
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th>BORROWED ITEMS</th>
+                                            <td>
+                                                0
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="actions">
+                        <label class="text-muted">Action</label>
+                        <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+                            <button type="button" class="btn btn-success">
+                                Return
+                            </button>
+                            <button type="button" class="btn btn-danger">
+                                Cancel
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <label class="text-muted mb-1">ASSETS</label>
+                    <table class="col-xs-7 table-bordered table-striped table-condensed table-fixed">
+                        <thead>
+                            <tr>
+                                <th class="col">ITEM</th>
+                                <th class="col">SERIAL NUMBER</th>
+                                <th class="col">BORROWED DATE</th>
+                                <th class="col">ACTION</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="col">Projector</td>
+                                <td class="col">Available</td>
+                                <td class="col">
+                                    <select class="form-select">
+                                        <option value="default">Good</option>
+                                        <option value="">Damaged</option>
+                                    </select>
+                                </td>
+                                <td class="col">
+                                    <button class="btn btn-primary">
+                                        <i class="fa-solid fa-plus"></i>
+                                    </button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="col">Monitor</td>
+                                <td class="col">Available</td>
+                                <td class="col">
+                                    <select class="form-select">
+                                        <option value="default">Good</option>
+                                        <option value="">Damaged</option>
+                                    </select>
+                                </td>
+                                <td class="col">
+                                    <button class="btn btn-primary">
+                                        <i class="fa-solid fa-plus"></i>
+                                    </button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="col">Printer</td>
+                                <td class="col">Available</td>
+                                <td class="col">
+                                    <select class="form-select">
+                                        <option value="default">Good</option>
+                                        <option value="">Damaged</option>
+                                    </select>
+                                </td>
+                                <td class="col">
+                                    <button class="btn btn-primary">
+                                        <i class="fa-solid fa-plus"></i>
+                                    </button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="col">Projector</td>
+                                <td class="col">Available</td>
+                                <td class="col">
+                                    <select class="form-select">
+                                        <option value="default">Good</option>
+                                        <option value="">Damaged</option>
+                                    </select>
+                                </td>
+                                <td class="col">
+                                    <button class="btn btn-primary">
+                                        <i class="fa-solid fa-plus"></i>
+                                    </button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="col">Monitor</td>
+                                <td class="col">Available</td>
+                                <td class="col">
+                                    <select class="form-select">
+                                        <option value="default">Good</option>
+                                        <option value="">Damaged</option>
+                                    </select>
+                                </td>
+                                <td class="col">
+                                    <button class="btn btn-primary">
+                                        <i class="fa-solid fa-plus"></i>
+                                    </button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="col">Printer</td>
+                                <td class="col">Available</td>
+                                <td class="col">
+                                    <select class="form-select">
+                                        <option value="default">Good</option>
+                                        <option value="">Damaged</option>
+                                    </select>
+                                </td>
+                                <td class="col">
+                                    <button class="btn btn-primary">
+                                        <i class="fa-solid fa-plus"></i>
+                                    </button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="col">Projector</td>
+                                <td class="col">Available</td>
+                                <td class="col">
+                                    <select class="form-select">
+                                        <option value="default">Good</option>
+                                        <option value="">Damaged</option>
+                                    </select>
+                                </td>
+                                <td class="col">
+                                    <button class="btn btn-primary">
+                                        <i class="fa-solid fa-plus"></i>
+                                    </button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="col">Monitor</td>
+                                <td class="col">Available</td>
+                                <td class="col">
+                                    <select class="form-select">
+                                        <option value="default">Good</option>
+                                        <option value="">Damaged</option>
+                                    </select>
+                                </td>
+                                <td class="col">
+                                    <button class="btn btn-primary">
+                                        <i class="fa-solid fa-plus"></i>
+                                    </button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="col">Printer</td>
+                                <td class="col">Available</td>
+                                <td class="col">
+                                    <select class="form-select">
+                                        <option value="default">Good</option>
+                                        <option value="">Damaged</option>
+                                    </select>
+                                </td>
+                                <td class="col">
+                                    <button class="btn btn-primary">
+                                        <i class="fa-solid fa-plus"></i>
+                                    </button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
         </div>
         </section>
