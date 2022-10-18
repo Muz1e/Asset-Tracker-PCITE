@@ -12,7 +12,7 @@
 
 <body>
  
-<nav class="navbar navbar-inverse visible-xs">
+<!-- <nav class="navbar navbar-inverse visible-xs">
   <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -34,7 +34,7 @@
       </ul>
     </div>
   </div>
-</nav>
+</nav> -->
 
 <div class="container-fluid">
   <div class="row content">
@@ -42,9 +42,13 @@
       <h2>Logo</h2>
       <ul class="nav nav-pills nav-stacked">
         <li class="active"><a href="#section1">Dashboard</a></li>
-        <li><a href="#section2">Age</a></li>
-        <li><a href="#section3">Gender</a></li>
-        <li><a href="#section3">Geo</a></li>
+        
+        <li><a href="#">EVIDENCES</a></li>
+        <li><a href="#">VEHICLES</a></li>
+        <li><a href="#">WEAPONS</a></li>
+        <li><a href="#">IT EQUIPMENTS</a></li>
+        <li><a href="#">UNIFORMS</a></li>
+        <li><a href="#">REPORT</a></li>
       </ul><br>
     </div>
     <br>
@@ -52,34 +56,48 @@
     <div class="col-sm-9">
       <div class="well">
         <h4>Dashboard</h4>
-        <p>Some text..</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit numquam aut accusantium excepturi ab voluptas natus sint et. Laboriosam amet excepturi nulla cupiditate voluptate praesentium illo suscipit veniam labore nostrum!</p>
       </div>
       <div class="row">
         <div class="col-sm-3">
           <div class="well">
-            <h4>Users</h4>
-            <p>1 Million</p> 
+            <h4>Evidences</h4>
+            <p>100</p> 
           </div>
         </div>
         <div class="col-sm-3">
           <div class="well">
-            <h4>Pages</h4>
-            <p>100 Million</p> 
+            <h4>VEHICLES</h4>
+            <p>100</p> 
           </div>
         </div>
         <div class="col-sm-3">
           <div class="well">
-            <h4>Sessions</h4>
-            <p>10 Million</p> 
+            <h4>WEAPONS</h4>
+            <p>100</p> 
           </div>
         </div>
         <div class="col-sm-3">
           <div class="well">
-            <h4>Bounce</h4>
-            <p>30%</p> 
+            <h4>IT EQUIPMENTS</h4>
+            <p>30</p> 
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="well">
+            <h4>Uniforms</h4>
+            <p>30</p> 
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="well">
+            <h4>Reports</h4>
+            <p>30</p> 
           </div>
         </div>
       </div>
+
+
       <div class="row">
         <div class="col-sm-4">
           <div class="well">
