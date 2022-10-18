@@ -19,15 +19,36 @@
 }
 
 
+.logo img{
+    width: 80px;
+    height: 80px;
+}
+
+
 .login-container #login-form{
     display: flex;
     height: 100%;
     justify-content: center;
     flex-direction: column;
-    border-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
-.logo img{
-    width: 80px;
-    height: 80px;
+
+#login-form .button-container button{
+    width: 50%;
+    font-weight: 500;
+    letter-spacing: 1px;
 }
+
+
+.login-container .container .bg-img-container{
+    height: 100%;
+    background-color: aqua;
+}
+
+.login-container .container .bg-img-container img{
+    height: 100%;
+    width: 100%;
+}
+
