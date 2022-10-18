@@ -26,7 +26,7 @@
             <div class="sidebar-header">
                 <div class="sidebar-logo-container">
                     <div class="logo-container">
-                        <img class="logo-sidebar" src="pnplogo" />
+                        <img class="logo-sidebar" src="images/pnp-logo.jpg" />
                     </div>
                     <div class="brand-name-container">
                         <p class="brand-name">
