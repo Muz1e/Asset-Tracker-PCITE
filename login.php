@@ -13,13 +13,13 @@
 </head>
 
 <body>
-    <div class="main-container container p-5">
-        <div class="login-container container p-5">
-            <div class="container shadow-lg" id="login-form">
+    <div class="main-container">
+        <div class="login-container container">
+            <div class="login-form container shadow-lg col-md" id="login-form">
                 <div class="logo text-center">
                     <img src="images/pnp-logo.jpg" alt="pnp-logo">
                 </div>
-                <div class="form p-5 text-center">
+                <div class="form text-center">
                     <div class="username-container mb-3 mt-3">
                         <input type="text" class="username form-control" placeholder="username">
                     </div>
@@ -33,7 +33,7 @@
                     </div>
                 </div>
             </div>
-            <div class="container shadow-lg p-0">
+            <div class="container shadow-lg p-0" id="container">
                 <div class="bg-img-container">
                     <img src="images/pnp.jpg" alt="bg-image">
                 </div>
