@@ -25,9 +25,12 @@
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
         <li class="active"><a href="#">Dashboard</a></li>
-        <li><a href="#">Age</a></li>
-        <li><a href="#">Gender</a></li>
-        <li><a href="#">Geo</a></li>
+        <li><a href="#">EVIDENCES</a></li>
+        <li><a href="#">VEHICLES</a></li>
+        <li><a href="#">WEAPONS</a></li>
+        <li><a href="#">IT EQUIPMENTS</a></li>
+        <li><a href="#">UNIFORMS</a></li>
+        <li><a href="#">REPORT</a></li>
       </ul>
     </div>
   </div>
