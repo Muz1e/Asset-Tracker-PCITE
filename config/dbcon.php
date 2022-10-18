@@ -3,7 +3,7 @@
 $servername = "localhost";
 $dbUsername = "root"; 
 $dbPassword = "";
-$dbname = ""
+$dbname = "pcitehack"
 
 $con = mysqli_connect($servername, $dbUsername, $dbPassword, $dbname);
 
