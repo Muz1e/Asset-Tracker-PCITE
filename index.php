@@ -25,12 +25,12 @@
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
         <li class="active"><a href="#">Dashboard</a></li>
-        <li><a href="#">EVIDENCES</a></li>
-        <li><a href="#">VEHICLES</a></li>
-        <li><a href="#">WEAPONS</a></li>
-        <li><a href="#">IT EQUIPMENTS</a></li>
-        <li><a href="#">UNIFORMS</a></li>
-        <li><a href="#">REPORT</a></li>
+        <li><a href="/Asset-Tracker-PCITE/dashboard/evidence.html">EVIDENCES</a></li>
+        <li><a href="/Asset-Tracker-PCITE/dashboard/vehicles.html">VEHICLES</a></li>
+        <li><a href="/Asset-Tracker-PCITE/dashboard/weapons.html">WEAPONS</a></li>
+        <li><a href="/Asset-Tracker-PCITE/dashboard/itEquipments.html">IT EQUIPMENTS</a></li>
+        <li><a href="/Asset-Tracker-PCITE/dashboard/uniform.html">UNIFORMS</a></li>
+        <li><a href="/Asset-Tracker-PCITE/dashboard/report.html">REPORT</a></li>
       </ul>
     </div>
   </div>
@@ -43,12 +43,12 @@
       <ul class="nav nav-pills nav-stacked">
         <li class="active"><a href="#section1">Dashboard</a></li>
         
-        <li><a href="#">EVIDENCES</a></li>
-        <li><a href="#">VEHICLES</a></li>
-        <li><a href="#">WEAPONS</a></li>
-        <li><a href="#">IT EQUIPMENTS</a></li>
-        <li><a href="#">UNIFORMS</a></li>
-        <li><a href="#">REPORT</a></li>
+        <li><a href="/Asset-Tracker-PCITE/dashboard/evidence.html">EVIDENCES</a></li>
+        <li><a href="/Asset-Tracker-PCITE/dashboard/vehicles.html">VEHICLES</a></li>
+        <li><a href="/Asset-Tracker-PCITE/dashboard/weapons.html">WEAPONS</a></li>
+        <li><a href="/Asset-Tracker-PCITE/dashboard/itEquipments.html">IT EQUIPMENTS</a></li>
+        <li><a href="/Asset-Tracker-PCITE/dashboard/uniform.html">UNIFORMS</a></li>
+        <li><a href="/Asset-Tracker-PCITE/dashboard/report.html">REPORT</a></li>
       </ul><br>
     </div>
     <br>
