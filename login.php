@@ -1,3 +1,7 @@
+<?php 
+include 'config/dbcon.php';
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -20,17 +24,19 @@
                     <img src="images/pnp-logo.jpg" alt="pnp-logo">
                 </div>
                 <div class="form text-center">
-                    <div class="username-container mb-3 mt-3">
-                        <input type="text" class="username form-control" placeholder="username">
-                    </div>
-                    <div class="password-container mb-3 mt-3">
-                        <input type="password" class="username form-control" placeholder="password">
-                    </div>
-                    <div class="button-container">
-                        <button class="btn btn-primary btn-block" type="submit">
-                            Login
-                        </button>
-                    </div>
+                    <form action="includes/login.php" method="post">
+                        <div class="username-container mb-3 mt-3">
+                            <input type="text" name="uid" class="username form-control" placeholder="username">
+                        </div>
+                        <div class="password-container mb-3 mt-3">
+                            <input type="password" name="pwd" class="username form-control" placeholder="password">
+                        </div>
+                        <div class="button-container">
+                            <button class="btn btn-primary btn-block" type="submit" name="submit" value="Login">
+                                Login
+                            </button>
+                        </div>
+                    </form>
                 </div>
             </div>
             <div class="container shadow-lg p-0" id="container">
