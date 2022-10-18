@@ -2,12 +2,12 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 
 <body>
@@ -25,12 +25,12 @@
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
         <li class="active"><a href="#">Dashboard</a></li>
-        <li><a href="/Asset-Tracker-PCITE/dashboard/evidence.html">EVIDENCES</a></li>
-        <li><a href="/Asset-Tracker-PCITE/dashboard/vehicles.html">VEHICLES</a></li>
-        <li><a href="/Asset-Tracker-PCITE/dashboard/weapons.html">WEAPONS</a></li>
-        <li><a href="/Asset-Tracker-PCITE/dashboard/itEquipments.html">IT EQUIPMENTS</a></li>
-        <li><a href="/Asset-Tracker-PCITE/dashboard/uniform.html">UNIFORMS</a></li>
-        <li><a href="/Asset-Tracker-PCITE/dashboard/report.html">REPORT</a></li>
+        <li><a href="#">EVIDENCES</a></li>
+        <li><a href="#">VEHICLES</a></li>
+        <li><a href="#">WEAPONS</a></li>
+        <li><a href="#">IT EQUIPMENTS</a></li>
+        <li><a href="#">UNIFORMS</a></li>
+        <li><a href="#">REPORT</a></li>
       </ul>
     </div>
   </div>
@@ -43,12 +43,12 @@
       <ul class="nav nav-pills nav-stacked">
         <li class="active"><a href="#section1">Dashboard</a></li>
         
-        <li><a href="/Asset-Tracker-PCITE/dashboard/evidence.html">EVIDENCES</a></li>
-        <li><a href="/Asset-Tracker-PCITE/dashboard/vehicles.html">VEHICLES</a></li>
-        <li><a href="/Asset-Tracker-PCITE/dashboard/weapons.html">WEAPONS</a></li>
-        <li><a href="/Asset-Tracker-PCITE/dashboard/itEquipments.html">IT EQUIPMENTS</a></li>
-        <li><a href="/Asset-Tracker-PCITE/dashboard/uniform.html">UNIFORMS</a></li>
-        <li><a href="/Asset-Tracker-PCITE/dashboard/report.html">REPORT</a></li>
+        <li><a href="#">EVIDENCES</a></li>
+        <li><a href="#">VEHICLES</a></li>
+        <li><a href="#">WEAPONS</a></li>
+        <li><a href="#">IT EQUIPMENTS</a></li>
+        <li><a href="#">UNIFORMS</a></li>
+        <li><a href="#">REPORT</a></li>
       </ul><br>
     </div>
     <br>
@@ -98,44 +98,44 @@
       </div>
 
 
-      <div class="row">
-        <div class="col-sm-4">
-          <div class="well">
-            <p>Text</p> 
-            <p>Text</p> 
-            <p>Text</p> 
-          </div>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="well">
+                            <p>Text</p>
+                            <p>Text</p>
+                            <p>Text</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="well">
+                            <p>Text</p>
+                            <p>Text</p>
+                            <p>Text</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="well">
+                            <p>Text</p>
+                            <p>Text</p>
+                            <p>Text</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-8">
+                        <div class="well">
+                            <p>Text</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="well">
+                            <p>Text</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="col-sm-4">
-          <div class="well">
-            <p>Text</p> 
-            <p>Text</p> 
-            <p>Text</p> 
-          </div>
-        </div>
-        <div class="col-sm-4">
-          <div class="well">
-            <p>Text</p> 
-            <p>Text</p> 
-            <p>Text</p> 
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-sm-8">
-          <div class="well">
-            <p>Text</p> 
-          </div>
-        </div>
-        <div class="col-sm-4">
-          <div class="well">
-            <p>Text</p> 
-          </div>
-        </div>
-      </div>
     </div>
-  </div>
-</div>
 
 
 </body>
