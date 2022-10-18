@@ -1,147 +1,143 @@
 <?php 
 include 'includes/session.php';
 ?>
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Trackerverse</title>
+    <link rel="stylesheet" href="./styles/dashboard.css">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
+    </script>
 </head>
+
 <body>
-<<<<<<< Updated upstream
-  ??
-=======
 
-    <nav class="navbar navbar-inverse visible-xs">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#">Logo</a>
+    <div class="page">
+        <div class="sidebar">
+            <div class="sidebar-header">
+                <div class="sidebar-logo-container">
+                    <div class="logo-container">
+                        <img class="logo-sidebar" src="pnplogo" />
+                    </div>
+                    <div class="brand-name-container">
+                        <p class="brand-name">
+                            Trackerverse<br />
+                            <!-- <span class="brand-subname">
+                                Tracking website
+                            </span> -->
+                        </p>
+                    </div>
+                </div>
             </div>
-            <div class="collapse navbar-collapse" id="myNavbar">
-                <ul class="nav navbar-nav">
-                    <li class="active"><a href="#">Dashboard</a></li>
-                    <li><a href="#">EVIDENCES</a></li>
-                    <li><a href="#">VEHICLES</a></li>
-                    <li><a href="#">WEAPONS</a></li>
-                    <li><a href="#">IT EQUIPMENTS</a></li>
-                    <li><a href="#">UNIFORMS</a></li>
-                    <li><a href="#">REPORT</a></li>
+            <div class="sidebar-body">
+                <ul class="navigation-list">
+                    <li class="navigation-list-item">
+                        <a class="navigation-link" href="/">
+                            <div class="row">
+
+                                <div class="col-9">
+                                    Dashboard
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="navigation-list-item">
+                        <a class="navigation-link" href="/">
+                            <div class="row">
+
+                                <div class="col-9">
+                                    Evidence
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="navigation-list-item active">
+                        <a class="navigation-link" href="/">
+                            <div class="row">
+
+                                <div class="col-9">
+                                    Vehicles
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="navigation-list-item">
+                        <a class="navigation-link" href="/">
+                            <div class="row">
+
+                                <div class="col-9">
+                                    Weapons
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="navigation-list-item">
+                        <a class="navigation-link" href="/">
+                            <div class="row">
+
+                                <div class="col-9">
+                                    IT Equipments
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="navigation-list-item">
+                        <a class="navigation-link" href="/">
+                            <div class="row">
+
+                                <div class="col-9">
+                                    Uniforms
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="navigation-list-item">
+                        <a class="navigation-link" href="/">
+                            <div class="row">
+
+                                <div class="col-9">
+                                    Report
+                                </div>
+                            </div>
+                        </a>
+                    </li>
                 </ul>
+
             </div>
         </div>
-    </nav>
 
-    <div class="container-fluid">
-        <div class="row content">
-            <div class="col-sm-3 sidenav hidden-xs">
-                <h2>Logo</h2>
-                <ul class="nav nav-pills nav-stacked">
-                    <li class="active"><a href="#section1">Dashboard</a></li>
-
-                    <li><a href="#">EVIDENCES</a></li>
-                    <li><a href="#">VEHICLES</a></li>
-                    <li><a href="#">WEAPONS</a></li>
-                    <li><a href="#">IT EQUIPMENTS</a></li>
-                    <li><a href="#">UNIFORMS</a></li>
-                    <li><a href="#">REPORT</a></li>
-                </ul><br>
-            </div>
-            <br>
-
-            <div class="col-sm-9">
-                <div class="well">
-                    <h4>Dashboard</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit numquam aut accusantium excepturi
-                        ab voluptas natus sint et. Laboriosam amet excepturi nulla cupiditate voluptate praesentium illo
-                        suscipit veniam labore nostrum!</p>
-                </div>
-                <div class="row">
-                    <div class="col-sm-3">
-                        <div class="well">
-                            <h4>Evidences</h4>
-                            <p>100</p>
-                        </div>
-                    </div>
-                    <div class="col-sm-3">
-                        <div class="well">
-                            <h4>VEHICLES</h4>
-                            <p>100</p>
-                        </div>
-                    </div>
-                    <div class="col-sm-3">
-                        <div class="well">
-                            <h4>WEAPONS</h4>
-                            <p>100</p>
-                        </div>
-                    </div>
-                    <div class="col-sm-3">
-                        <div class="well">
-                            <h4>IT EQUIPMENTS</h4>
-                            <p>30</p>
-                        </div>
-                    </div>
-                    <div class="col-sm-3">
-                        <div class="well">
-                            <h4>Uniforms</h4>
-                            <p>30</p>
-                        </div>
-                    </div>
-                    <div class="col-sm-3">
-                        <div class="well">
-                            <h4>Reports</h4>
-                            <p>30</p>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="row">
-                    <div class="col-sm-4">
-                        <div class="well">
-                            <p>Text</p>
-                            <p>Text</p>
-                            <p>Text</p>
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="well">
-                            <p>Text</p>
-                            <p>Text</p>
-                            <p>Text</p>
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="well">
-                            <p>Text</p>
-                            <p>Text</p>
-                            <p>Text</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-8">
-                        <div class="well">
-                            <p>Text</p>
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="well">
-                            <p>Text</p>
-                        </div>
-                    </div>
-                </div>
+        <div class="content">
+            <div class="navigationBar">
+                <button id="sidebarToggle" class="btn sidebarToggle">
+                    <i class="fas fa-bars"></i>
+                    </a>
             </div>
         </div>
+
     </div>
 
-
->>>>>>> Stashed changes
+    <script>
+    let sidebarToggle = document.querySelector(".sidebarToggle");
+    sidebarToggle.addEventListener("click", function() {
+        document.querySelector("body").classList.toggle("active");
+        document.getElementById("sidebarToggle").classList.toggle("active");
+    })
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
 </body>
+
 </html>
