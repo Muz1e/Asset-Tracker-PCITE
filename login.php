@@ -13,8 +13,8 @@
 </head>
 
 <body>
-    <div class="main-container p-5">
-        <div class="login-container p-5">
+    <div class="main-container container p-5">
+        <div class="login-container container p-5">
             <div class="container shadow-lg" id="login-form">
                 <div class="logo text-center">
                     <img src="images/pnp-logo.jpg" alt="pnp-logo">
