@@ -56,3 +56,24 @@ input{
     border-top-right-radius: 5px;
 }
 
+/* @media screen and (max-width: 800px){
+
+    .main-container{
+        display: flex;
+        padding: 0;
+    }
+
+    .main-container .login-container{
+        display: block;
+        width: auto;
+        height: auto;
+    }
+
+    .login-container .container .bg-img-container{
+        height: 100%;
+    }
+
+    .login-container .container .bg-img-container{
+        display: none;
+    }
+} */
