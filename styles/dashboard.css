@@ -21,3 +21,9 @@ body{
   @media screen and (max-width: 767px) {
     .row.content {height: auto;} 
   }
+
+.img-thumbnail{
+  display: inline-block;
+  max-width: 100%;
+  height: 15em;
+}

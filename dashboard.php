@@ -21,7 +21,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="#">Logo</a>
+      <a class="navbar-brand" href="#"><img src="./images/pnp-logo.jpg" class="img-thumbnail" alt="..."></a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
@@ -40,7 +40,7 @@
 <div class="container-fluid">
   <div class="row content">
     <div class="col-sm-3 sidenav hidden-xs">
-      <h2>Logo</h2>
+    <img src="./images/pnp-logo.jpg" class="img-thumbnail" alt="...">
       <ul class="nav nav-pills nav-stacked">
         <li class="active"><a href="#section1">Dashboard</a></li>
         
@@ -122,18 +122,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-sm-8">
-                        <div class="well">
-                            <p>Text</p>
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="well">
-                            <p>Text</p>
-                        </div>
-                    </div>
-                </div>
+               
             </div>
         </div>
     </div>
