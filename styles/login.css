@@ -9,17 +9,40 @@
 
 input{
     letter-spacing: 1.5px;
+    
 }
 
 .main-container{
     height: 100vh;
     width: 100%;
+    padding: 3rem;
+    background-image: 
+    linear-gradient(
+        130deg,
+    hsl(0, 0%, 93%) 0%,
+    hsl(0, 0%, 93.11%) 10.9%,
+    hsl(0, 0%, 93.37%) 20.6%,
+    hsl(0, 0%, 93.78%) 29.2%,
+    hsl(0, 0%, 94.3%) 36.9%,
+    hsl(0, 0%, 94.9%) 43.7%,
+    hsl(0, 0%, 95.55%) 49.9%,
+    hsl(0, 0%, 96.24%) 55.6%,
+    hsl(0, 0%, 96.94%) 60.9%,
+    hsl(0, 0%, 97.61%) 66%,
+    hsl(0, 0%, 98.25%) 71%,
+    hsl(0, 0%, 98.82%) 76%,
+    hsl(0, 0%, 99.3%) 81.3%,
+    hsl(0, 0%, 99.67%) 87%,
+    hsl(0, 0%, 99.91%) 93.2%,
+    hsl(0, 0%, 100%) 100%
+      );
 }
 
 .main-container .login-container{
     display: grid;
     grid-template-columns: 5fr 5fr;
     height: 100%;
+    padding: 3rem;
 }
 
 .logo img{
@@ -31,12 +54,24 @@ input{
 .login-container #login-form{
     display: flex;
     height: 100%;
+    width: 100;
     justify-content: center;
     flex-direction: column;
     border-bottom-left-radius: 5px;
     border-top-left-radius: 5px;
+    background-color: #FFFF;
 }
 
+.login-container #login-form .form{
+    display: flex;
+    flex-direction: column;
+    padding: 2.5rem;
+}
+
+#login-form .form input{
+    margin: auto;
+    width: 80%;
+}
 
 #login-form .button-container button{
     width: 50%;
@@ -56,24 +91,25 @@ input{
     border-top-right-radius: 5px;
 }
 
-/* @media screen and (max-width: 800px){
+@media screen and (max-width: 850px){
 
     .main-container{
-        display: flex;
+        display: block;
         padding: 0;
     }
 
     .main-container .login-container{
-        display: block;
-        width: auto;
-        height: auto;
+        display: flex;
+        border-radius: 5px;
+        padding: 1rem;
+      
     }
 
-    .login-container .container .bg-img-container{
-        height: 100%;
-    }
-
-    .login-container .container .bg-img-container{
+    .main-container #container{
         display: none;
     }
-} */
+
+    .login-container #login-form .form{
+        padding: 1.5rem;
+    }
+}
