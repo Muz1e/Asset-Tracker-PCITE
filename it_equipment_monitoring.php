@@ -290,7 +290,7 @@
                             <tr>
                                 <th class="col">ITEM</th>
                                 <th class="col">SERIAL NUMBER</th>
-                                <th class="col">BORROWED DATE</th>
+                                <th class="col">RETURNED DATE</th>
                                 <th class="col">ACTION</th>
                             </tr>
                         </thead>
@@ -298,137 +298,117 @@
                             <tr>
                                 <td class="col">Projector</td>
                                 <td class="col">Available</td>
+                                <td class="col">OCT. 19, 2022</td>
+
                                 <td class="col">
                                     <select class="form-select">
                                         <option value="default">Good</option>
                                         <option value="">Damaged</option>
                                     </select>
                                 </td>
-                                <td class="col">
-                                    <button class="btn btn-primary">
-                                        <i class="fa-solid fa-plus"></i>
-                                    </button>
-                                </td>
+
                             </tr>
                             <tr>
                                 <td class="col">Monitor</td>
                                 <td class="col">Available</td>
+                                <td class="col">OCT. 19, 2022</td>
+
                                 <td class="col">
                                     <select class="form-select">
                                         <option value="default">Good</option>
                                         <option value="">Damaged</option>
                                     </select>
                                 </td>
-                                <td class="col">
-                                    <button class="btn btn-primary">
-                                        <i class="fa-solid fa-plus"></i>
-                                    </button>
-                                </td>
+
                             </tr>
                             <tr>
                                 <td class="col">Printer</td>
                                 <td class="col">Available</td>
+                                <td class="col">OCT. 19, 2022</td>
+
                                 <td class="col">
                                     <select class="form-select">
                                         <option value="default">Good</option>
                                         <option value="">Damaged</option>
                                     </select>
                                 </td>
-                                <td class="col">
-                                    <button class="btn btn-primary">
-                                        <i class="fa-solid fa-plus"></i>
-                                    </button>
-                                </td>
+
                             </tr>
                             <tr>
                                 <td class="col">Projector</td>
                                 <td class="col">Available</td>
+                                <td class="col">OCT. 19, 2022</td>
+
                                 <td class="col">
                                     <select class="form-select">
                                         <option value="default">Good</option>
                                         <option value="">Damaged</option>
                                     </select>
                                 </td>
-                                <td class="col">
-                                    <button class="btn btn-primary">
-                                        <i class="fa-solid fa-plus"></i>
-                                    </button>
-                                </td>
+
                             </tr>
                             <tr>
                                 <td class="col">Monitor</td>
                                 <td class="col">Available</td>
+                                <td class="col">OCT. 19, 2022</td>
+
                                 <td class="col">
                                     <select class="form-select">
                                         <option value="default">Good</option>
                                         <option value="">Damaged</option>
                                     </select>
                                 </td>
-                                <td class="col">
-                                    <button class="btn btn-primary">
-                                        <i class="fa-solid fa-plus"></i>
-                                    </button>
-                                </td>
+
                             </tr>
                             <tr>
                                 <td class="col">Printer</td>
                                 <td class="col">Available</td>
+                                <td class="col">OCT. 19, 2022</td>
                                 <td class="col">
                                     <select class="form-select">
                                         <option value="default">Good</option>
                                         <option value="">Damaged</option>
                                     </select>
                                 </td>
-                                <td class="col">
-                                    <button class="btn btn-primary">
-                                        <i class="fa-solid fa-plus"></i>
-                                    </button>
-                                </td>
+
                             </tr>
                             <tr>
                                 <td class="col">Projector</td>
                                 <td class="col">Available</td>
+                                <td class="col">OCT. 19, 2022</td>
+
                                 <td class="col">
                                     <select class="form-select">
                                         <option value="default">Good</option>
                                         <option value="">Damaged</option>
                                     </select>
                                 </td>
-                                <td class="col">
-                                    <button class="btn btn-primary">
-                                        <i class="fa-solid fa-plus"></i>
-                                    </button>
-                                </td>
+
                             </tr>
                             <tr>
                                 <td class="col">Monitor</td>
                                 <td class="col">Available</td>
+                                <td class="col">OCT. 19, 2022</td>
+
                                 <td class="col">
                                     <select class="form-select">
                                         <option value="default">Good</option>
                                         <option value="">Damaged</option>
                                     </select>
                                 </td>
-                                <td class="col">
-                                    <button class="btn btn-primary">
-                                        <i class="fa-solid fa-plus"></i>
-                                    </button>
-                                </td>
+
                             </tr>
                             <tr>
                                 <td class="col">Printer</td>
                                 <td class="col">Available</td>
+                                <td class="col">OCT. 19, 2022</td>
                                 <td class="col">
                                     <select class="form-select">
                                         <option value="default">Good</option>
                                         <option value="">Damaged</option>
                                     </select>
                                 </td>
-                                <td class="col">
-                                    <button class="btn btn-primary">
-                                        <i class="fa-solid fa-plus"></i>
-                                    </button>
-                                </td>
+
                             </tr>
                         </tbody>
                     </table>
