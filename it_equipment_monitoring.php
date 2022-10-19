@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
         integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" type="text/css" href="styles/weapon_monitoring.css">
+    <link rel="stylesheet" type="text/css" href="styles/it_equipment_monitoring.css">
     <title>Monitoring</title>
 </head>
 
@@ -291,52 +291,24 @@
                                 <th class="col">ITEM</th>
                                 <th class="col">SERIAL NUMBER</th>
                                 <th class="col">RETURNED DATE</th>
-                                <th class="col">ACTION</th>
+                                <th class="col">CONDITION</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                                <td class="col">Projector</td>
-                                <td class="col">Available</td>
-                                <td class="col">OCT. 19, 2022</td>
-
-                                <td class="col">
-                                    <select class="form-select">
-                                        <option value="default">Good</option>
-                                        <option value="">Damaged</option>
-                                    </select>
-                                </td>
-
-                            </tr>
-                            <tr>
-                                <td class="col">Monitor</td>
-                                <td class="col">Available</td>
-                                <td class="col">OCT. 19, 2022</td>
-
-                                <td class="col">
-                                    <select class="form-select">
-                                        <option value="default">Good</option>
-                                        <option value="">Damaged</option>
-                                    </select>
-                                </td>
-
-                            </tr>
-                            <tr>
                                 <td class="col">Printer</td>
-                                <td class="col">Available</td>
+                                <td class="col">#123456789</td>
                                 <td class="col">OCT. 19, 2022</td>
-
                                 <td class="col">
                                     <select class="form-select">
                                         <option value="default">Good</option>
                                         <option value="">Damaged</option>
                                     </select>
                                 </td>
-
                             </tr>
                             <tr>
                                 <td class="col">Projector</td>
-                                <td class="col">Available</td>
+                                <td class="col">#987654321</td>
                                 <td class="col">OCT. 19, 2022</td>
 
                                 <td class="col">
@@ -345,24 +317,10 @@
                                         <option value="">Damaged</option>
                                     </select>
                                 </td>
-
                             </tr>
                             <tr>
                                 <td class="col">Monitor</td>
-                                <td class="col">Available</td>
-                                <td class="col">OCT. 19, 2022</td>
-
-                                <td class="col">
-                                    <select class="form-select">
-                                        <option value="default">Good</option>
-                                        <option value="">Damaged</option>
-                                    </select>
-                                </td>
-
-                            </tr>
-                            <tr>
-                                <td class="col">Printer</td>
-                                <td class="col">Available</td>
+                                <td class="col">#654987321</td>
                                 <td class="col">OCT. 19, 2022</td>
                                 <td class="col">
                                     <select class="form-select">
@@ -370,46 +328,8 @@
                                         <option value="">Damaged</option>
                                     </select>
                                 </td>
-
                             </tr>
-                            <tr>
-                                <td class="col">Projector</td>
-                                <td class="col">Available</td>
-                                <td class="col">OCT. 19, 2022</td>
 
-                                <td class="col">
-                                    <select class="form-select">
-                                        <option value="default">Good</option>
-                                        <option value="">Damaged</option>
-                                    </select>
-                                </td>
-
-                            </tr>
-                            <tr>
-                                <td class="col">Monitor</td>
-                                <td class="col">Available</td>
-                                <td class="col">OCT. 19, 2022</td>
-
-                                <td class="col">
-                                    <select class="form-select">
-                                        <option value="default">Good</option>
-                                        <option value="">Damaged</option>
-                                    </select>
-                                </td>
-
-                            </tr>
-                            <tr>
-                                <td class="col">Printer</td>
-                                <td class="col">Available</td>
-                                <td class="col">OCT. 19, 2022</td>
-                                <td class="col">
-                                    <select class="form-select">
-                                        <option value="default">Good</option>
-                                        <option value="">Damaged</option>
-                                    </select>
-                                </td>
-
-                            </tr>
                         </tbody>
                     </table>
                 </div>
