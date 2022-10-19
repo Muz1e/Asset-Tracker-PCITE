@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+body{
+    background-color: #F4F4F4;
+}
+
+.main-container{
+    width: 100%;
+    height: 100%;
+}
+
+.nav .nav-item a{
+    color: black;
+}
+
+.tab-content .scanner{
+    display: grid;
+    grid-template-columns: 5fr 5fr 5fr;
+}
+
+.preview .video-container {
+    display: flex;
+    padding: 3rem;
+    width: 100%;
+}
+
+.tab-content .details{
+    width: 100%;
+}
+
+.details .asset, .actions{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.asset .personel-details{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.personel-details img{
+    width: 10rem;
+}
+
+.asset table{
+    border: transparent;
+}
+
+.asset .actions{
+   display: flex;
+   width: 100%;
+}
+
+.actions .btn-group{
+    margin: auto;
+    width:50%;
+}
+
+
+.table-fixed {
+    margin-bottom: 3rem;
+}
+
+.table-fixed thead,
+.table-fixed thead>th {
+    background: #4d7275;
+    color: #fff;
+    text-align: center;
+}
+
+.table-fixed tbody tr td {
+    height: 50px;
+    background: #fff;
+    text-align: center;
+}
+
+.table-fixed>thead>tr>th {
+    border: 0 !important;
+}
+
+.table-fixed>tbody>tr>td:last-child {
+    border-right: 0;
+}
+
+.table-fixed tbody td,
+.table-fixed thead>tr>th {
+    float: left;
+    font-size: 15;
+    padding-left: 20px !important;
+    
+}
+
+.table-fixed .col {
+    width: 25%;
+}
+
+.table-fixed tbody {
+    display: block;
+    height: 200px;
+    overflow-y: auto;
+}
+
+.table-fixed tr {
+    display: block;
+}
+
