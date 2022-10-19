@@ -326,4 +326,6 @@ include 'includes/header.php';
     </div>
     </section>
 </div>
-</div>
+<?php 
+include 'includes/footer.php';
+?>
