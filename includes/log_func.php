@@ -21,7 +21,7 @@ function pwdMatch($pwd, $pwdRepeat)
 }
 function uidExists($con, $username)
 {
-    $sql = "SELECT * FROM admin WHERE `admin_uid` = ?;";
+    $sql = "SELECT * FROM `admin_acc` WHERE `admin_uid` = ?;";
     $stmt = mysqli_stmt_init($con);
     if (!mysqli_stmt_prepare($stmt, $sql)) {
         header("location: ../createAdmin.php?error=stmtfailed");
