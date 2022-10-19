@@ -1,7 +1,25 @@
 <?php 
 include 'config/dbcon.php';
 session_start();
+if(isset($_POST['submit'])){
+    
+    $logins = array('admin' => '123456');
+    
+    $Username = isset($_POST['Username']) ? $_POST['Username'] : '';
+    $Password = isset($_POST['Password']) ? $_POST['Password'] : '';
+    
+         
+    if (isset($logins[$Username]) && $logins[$Username] == $Password){
+            
+            $_SESSION['UserData']['Username']=$logins[$Username];
+            header("location:index.php");
+            exit;
+    } else { 
+            $msg="<span style='color:red'>Invalid Login Details</span>";
+    }
+}
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -24,12 +42,12 @@ session_start();
                     <img src="images/pnp-logo.jpg" alt="pnp-logo">
                 </div>
                 <div class="form text-center">
-                    <form action="includes/login.php" method="post">
+                    <form action="" method="post">
                         <div class="username-container mb-3 mt-3">
-                            <input type="text" name="uid" class="username form-control" placeholder="username">
+                            <input type="text" name="Username" class="username form-control" placeholder="username">
                         </div>
                         <div class="password-container mb-3 mt-3">
-                            <input type="password" name="pwd" class="username form-control" placeholder="password">
+                            <input type="password" name="Password" class="username form-control" placeholder="password">
                         </div>
                         <div class="button-container">
                             <button class="btn btn-primary btn-block" type="submit" name="submit" value="Login">

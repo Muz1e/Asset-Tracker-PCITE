@@ -1,3 +1,11 @@
+<?php 
+session_start();
+
+if(!isset($_SESSION['UserData']['Username'])){
+        header("location:login.php");
+        exit;
+}
+?>
 <!doctype html>
 <html lang="en">
 
@@ -94,10 +102,10 @@
                         </a>
                     </li>
                     <li class="navigation-list-item">
-                        <a class="navigation-link" href="#">
+                        <a class="navigation-link" href="includes/logout.php">
                             <div class="row">
                                 <div class="col-9">
-                                    Report
+                                    Logout
                                 </div>
                             </div>
                         </a>

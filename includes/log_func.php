@@ -68,7 +68,7 @@ function emailExists($con, $email)
 
 function createAdmin($con, $name, $email, $username, $pwd)
 {
-    $sql = "INSERT INTO admin (adminName, adminEmail, adminUid, adminPwd) VALUES(?,?,?,?);";
+    $sql = "INSERT INTO `admin_acc` (adminName, adminEmail, adminUid, adminPwd) VALUES(?,?,?,?);";
     $stmt = mysqli_stmt_init($con);
     if (!mysqli_stmt_prepare($stmt, $sql)) {
 
