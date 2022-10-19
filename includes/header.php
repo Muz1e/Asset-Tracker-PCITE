@@ -49,7 +49,7 @@
                         </a>
                     </li>
                     <li class="navigation-list-item">
-                        <a class="navigation-link" href="weapon_monitoring.php">
+                        <a class="navigation-link" href="#">
                             <div class="row">
                                 <div class="col-9">
                                     Evidence
@@ -58,7 +58,7 @@
                         </a>
                     </li>
                     <li class="navigation-list-item active">
-                        <a class="navigation-link" href="/">
+                        <a class="navigation-link" href="#">
                             <div class="row">
                                 <div class="col-9">
                                     Vehicles
@@ -67,7 +67,7 @@
                         </a>
                     </li>
                     <li class="navigation-list-item">
-                        <a class="navigation-link" href="/">
+                        <a class="navigation-link" href="weapon_monitoring.php">
                             <div class="row">
                                 <div class="col-9">
                                     Weapons
@@ -76,7 +76,7 @@
                         </a>
                     </li>
                     <li class="navigation-list-item">
-                        <a class="navigation-link" href="/">
+                        <a class="navigation-link" href="#">
                             <div class="row">
                                 <div class="col-9">
                                     IT Equipments
@@ -85,7 +85,7 @@
                         </a>
                     </li>
                     <li class="navigation-list-item">
-                        <a class="navigation-link" href="/">
+                        <a class="navigation-link" href="#">
                             <div class="row">
                                 <div class="col-9">
                                     Uniforms
@@ -94,7 +94,7 @@
                         </a>
                     </li>
                     <li class="navigation-list-item">
-                        <a class="navigation-link" href="/">
+                        <a class="navigation-link" href="#">
                             <div class="row">
                                 <div class="col-9">
                                     Report
